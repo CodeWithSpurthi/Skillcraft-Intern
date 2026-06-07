@@ -18,3 +18,8 @@ During this internship, I worked on improving my programming skills, problem-sol
   - HTML
   - CSS
   - JavaScript
+### Task 2: Stopwatch web Application
+- Technologies Used:
+  - HTML
+  - CSS
+  - JavaScript
