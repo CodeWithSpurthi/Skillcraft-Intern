@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tic Tac Toe</title>
+<link rel="stylesheet" href="task3.css">
+</head>
+
+<body>
+
+<div class="game-container">
+
+<h1>✨ Tic Tac Toe ✨</h1>
+<p class="tagline">Classic Game, Endless Fun!</p>
+
+
+<div class="buttons">
+<button onclick="changeMode('player')">
+👥 Player vs Player
+</button>
+
+<button onclick="changeMode('computer')">
+🤖 Player vs Computer
+</button>
+</div>
+
+
+
+<div class="players">
+
+<div class="card">
+<div class="icon">👤</div>
+<h3>PLAYER X</h3>
+<h2 id="xscore">0</h2>
+<p>Wins</p>
+</div>
+
+
+
+<div class="board-section">
+
+<h2 id="status">
+Player X Turn
+</h2>
+
+
+<div class="board">
+
+<div class="cell" onclick="play(0)"></div>
+<div class="cell" onclick="play(1)"></div>
+<div class="cell" onclick="play(2)"></div>
+
+<div class="cell" onclick="play(3)"></div>
+<div class="cell" onclick="play(4)"></div>
+<div class="cell" onclick="play(5)"></div>
+
+<div class="cell" onclick="play(6)"></div>
+<div class="cell" onclick="play(7)"></div>
+<div class="cell" onclick="play(8)"></div>
+
+</div>
+
+</div>
+
+
+
+<div class="card">
+<div class="icon">🤖</div>
+<h3>PLAYER O</h3>
+<h2 id="oscore">0</h2>
+<p>Wins</p>
+</div>
+
+
+</div>
+
+
+
+<button class="restart" type="button" onclick="restart()">
+🔄 Restart Game
+</button>
+
+
+</div>
+
+
+<script src="task3.js"></script>
+
+</body>
+</html>
