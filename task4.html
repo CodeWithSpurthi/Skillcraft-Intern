@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Taskify</title>
+<link rel="stylesheet" href="task4.css">
+</head>
+
+<body>
+
+<div class="app">
+
+
+<!-- Sidebar -->
+
+<aside>
+
+<h2>✔ Taskify</h2>
+
+<div class="menu active">🏠 Overview</div>
+<div class="menu">☑ Tasks</div>
+<div class="menu">📅 Calendar</div>
+<div class="menu">📊 Stats</div>
+
+
+
+<div class="pro">
+
+<h3>Upgrade to Pro</h3>
+<p>Boost your productivity</p>
+
+<button>Upgrade</button>
+
+</div>
+
+</aside>
+
+
+
+
+<!-- Main -->
+
+<main>
+
+
+<div class="top">
+
+<div>
+<h1>Good Evening 👋</h1>
+<p>Stay focused and get more done</p>
+</div>
+
+
+<input id="search"
+placeholder="Search tasks..."
+onkeyup="searchTask()">
+
+
+</div>
+
+
+
+<!-- Cards -->
+
+<div class="cards">
+
+
+<div class="box">
+<h3>Total Tasks</h3>
+<h1 id="total">0</h1>
+</div>
+
+
+<div class="box green">
+<h3>Completed</h3>
+<h1 id="done">0</h1>
+</div>
+
+
+
+<div class="box orange">
+<h3>Pending</h3>
+<h1 id="pending">0</h1>
+</div>
+
+
+
+<div class="box">
+
+<h3>Completion</h3>
+
+<div class="circle">
+
+<span id="percent">
+0%
+</span>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- Tasks -->
+
+<div class="task-area">
+
+
+<div class="task-head">
+
+<h2>My Tasks</h2>
+
+<button onclick="addTask()">
++ Add Task
+</button>
+
+</div>
+
+
+
+<div id="tasks"></div>
+
+
+</div>
+
+
+
+</main>
+
+
+</div>
+
+
+<script src="task4.js"></script>
+
+</body>
+</html>
