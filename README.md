@@ -23,3 +23,13 @@ During this internship, I worked on improving my programming skills, problem-sol
   - HTML
   - CSS
   - JavaScript
+### Task 3: Tic-Tac-Toe Web application
+- Technologies Used:
+  - HTML
+  - CSS
+  - JavaScript
+### Task 4: To-DO Web APP
+- Technologies Used:
+  - HTML
+  - CSS
+  - JavaScript
